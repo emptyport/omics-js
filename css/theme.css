@@ -1,0 +1,50 @@
+html {
+    background: #353B50;
+    font-family: 'Roboto', sans-serif;
+    color: #E7E7E7;
+}
+
+.card {
+    background: #0C0F18;
+    margin: 5% 10% 5% 10%;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: #E7E7E7;
+}
+
+.card-content {
+    margin: 3%;
+}
+
+.card-title {
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.card-subtitle {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.2em;
+}
+
+/* unvisited link */
+a:link {
+    color: #E7E7E7;
+}
+
+/* visited link */
+a:visited {
+    color: #5b8e9b;
+}
+
+/* mouse over link */
+a:hover {
+    color: #170099;
+}
+
+/* selected link */
+a:active {
+    color: #170099;
+}

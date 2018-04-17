@@ -1,0 +1,10 @@
+---
+- project: molecular-formula
+  title: Molecular Formula
+  url: http://www.google.com
+  description: A library for parsing molecular formula
+
+- project: isotope-abundances
+  title: isotope abundances
+  url: http://www.google.com
+  description: a list of all NIST isotope abundances
