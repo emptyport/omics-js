@@ -9,6 +9,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link rel="stylesheet" href="css/theme.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
 
 		<link rel="icon" type="image/ico" href="img/favicon.ico">
 		<title>omics.js</title>
@@ -16,8 +18,9 @@
 		{% include ga.html %}
 	</head>
 	<body>
+		{% include navbar.html %}
+		<script src="js/index.js"></script>
 
-		This is the body of the page
 		<div class="card-container">
 		{% for project in site.data.projects %}
 			<div class="card">
@@ -25,7 +28,7 @@
 					<h1 class="card-title">{{ project.title }}</h1>
 					<h2 class="card-subtitle">{{ project.project }}</h2>
 					<p class="card-description">{{ project.description }}</p>
-					<a class="card-link" href={{ project.url }} target="_blank">Visit</a>
+					<a class="card-link" href={{ project.url }} target="_blank">Visit <i class="fas fa-external-link-alt"></i></a>
 				</div>
 			</div>
 		{% endfor %}

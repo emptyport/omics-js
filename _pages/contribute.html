@@ -1,0 +1,68 @@
+---
+permalink: "/contribute/"
+---
+
+<!DOCTYPE html>
+<html>
+	{% include cookie_notice.html %}
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="../css/theme.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+
+
+		<link rel="icon" type="image/ico" href="../img/favicon.ico">
+		<title>omics.js</title>
+
+		{% include ga.html %}
+	</head>
+	<body>
+		{% include navbar.html %}
+		<script src="../js/index.js"></script>
+
+        <div class="page-content">
+            <p class="large-text">
+                Is there a library or module that we missed? Is there a library you think would be useful? Let us know using the form below!
+            </p>
+            <p>
+                The only requirements we have are that the library be related in some way to the omics (proteomics, lipidomics, metabolomics, genomics) and that it be documented. "Looking at the code" or "running it for a list of options" do not count as documentation! The library must have a proper README or documentation with a description of all methods and preferably an example for each method.
+            </p>
+
+            <!-- Tab links -->
+            <div class="tab">
+                <button class="tablinks active" onclick="openTab(event, 'adding')">Add a missing library</button>
+                <button class="tablinks" onclick="openTab(event, 'suggesting')">Make a suggestion</button>
+            </div>
+        
+            <!-- Tab content -->
+            <div id="adding" class="tabcontent" style="display: block;">
+                <h3>Tell us about a missing library!</h3>
+                <form id="myForm" enctype="text/plain" action=" https://docs.google.com/forms/d/e/1FAIpQLScCwrW3unF8rB9bBwhamcMEQCcZJWYFuGi1hCu5d2BQG8lNOw/formResponse?" target="hidden_iframe" onsubmit="responseReceived();">
+                    Library name:<br>
+                    <input type="text" name="entry.1665688467" id="entry.1665688467"><br>
+                    Website:<br>
+                    <input type="text" name="entry.1116210656" id="entry.1116210656"><br>
+                    Description:<br>
+                    <textarea type="textarea" class="textarea" name="entry.152320113" id="entry.152320113"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
+            <div id="suggesting" class="tabcontent">
+                <h3>Suggest a library that doesn't exist!</h3>
+                <form id="myForm" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdGJ16ZsOx9CDjeirHR8Y9JVlg-0B7hTW67BimgZbQegmeqOg/formResponse?" target="hidden_iframe" onsubmit="responseReceived();">
+                    What sort of library would you like?<br>
+                    <textarea type="textarea" class="textarea" name="entry.1267679793" id="entry.1267679793"></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+        </div>
+
+	</body>
+
+</html>
