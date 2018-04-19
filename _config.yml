@@ -2,6 +2,7 @@ port:  4000
 encoding: utf-8
 include: ["_pages"]
 permalink: /blog/:title/
+baseurl: /omics-js
 plugins:
   - jekyll-sitemap
   - jekyll-seo
