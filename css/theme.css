@@ -74,6 +74,11 @@ a:active {
     margin-top: 24px;
   }
 
+  .intro {
+      padding: 16px;
+      margin-top: 50px;
+  }
+
   .page-content {
       padding: 16px;
       margin-top: 36px;

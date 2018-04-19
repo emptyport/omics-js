@@ -1,25 +1,36 @@
 ---
+- project: js_mzml
+  title: mzML parser
+  url: https://www.npmjs.com/package/js_mzml
+  description: An mzML file parser. Supports 64-bit and 32-bit encoding as well as zlib compression in the files.
+
+- project: peptide-cutter
+  title: Protein digestion in-silico
+  url: https://www.npmjs.com/package/peptide-cutter
+  description: A library for digesting amino acid sequences using rules from Expasy.
+
 - project: molecular-formula
   title: Molecular Formula
-  url: http://www.google.com
-  description: A library for parsing molecular formula
+  url: https://www.npmjs.com/package/molecular-formula
+  description: A library for working with molecular formula.
 
 - project: isotope-abundances
   title: Isotope Abundances
-  url: http://www.google.com
-  description: a list of all NIST isotope abundances
+  url: https://www.npmjs.com/package/isotope-abundances
+  description: Access to the NIST isotope abundances.
 
-- project: test
-  title: test
-  url: http://www.google.com
-  description: test
+- project: jsms
+  title: JS-MS
+  url: https://github.com/optimusmoose/jsms
+  description: Not purely JavaScript and not well documented, but this looks to be a well fleshed out visualization tool that could be repurposed.
 
-- project: test
-  title: test
-  url: http://www.google.com
-  description: test
+- project: Loriket
+  title: Lorikeet
+  url: http://uwpr.github.io/Lorikeet/
+  description: A nice looking MS spectrum viewer with support for peak labels.
 
-- project: test
-  title: test
-  url: http://www.google.com
-  description: test
+- project: proxl-web-app
+  title: ProXL
+  url: https://github.com/yeastrc/proxl-web-app
+  description: Proxl is a web application for analyzing, visualizing, and sharing protein cross-linking mass spectrometry data.
+

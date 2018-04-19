@@ -1,22 +1,31 @@
+---
+permalink: /404.html
+---
+
+<!DOCTYPE html>
+<html>
+	{% include cookie_notice.html %}
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="../css/theme.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
 
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+		<link rel="icon" type="image/ico" href="../img/favicon.ico">
+		<title>omics.js</title>
 
-<div class="container">
-  <h1>404</h1>
+		{% include ga.html %}
+	</head>
+	<body>
+		{% include navbar.html %}
+		<script src="../js/index.js"></script>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+        <div class="page-content">
+            We're sorry, this page seems to be below your instrument's limit of detection.
+        </div>
+
+	</body>
+
+</html>
