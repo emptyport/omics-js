@@ -34,3 +34,7 @@
   url: https://github.com/yeastrc/proxl-web-app
   description: Proxl is a web application for analyzing, visualizing, and sharing protein cross-linking mass spectrometry data.
 
+- project: js-emass
+  title: emass
+  url: https://www.npmjs.com/package/js-emass
+  description: This is a JavaScript implementation of the original emass algorithm. It is an exact match for the original except it uses updated isotope information in its calculations.
