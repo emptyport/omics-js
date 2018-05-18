@@ -38,3 +38,8 @@
   title: emass
   url: https://www.npmjs.com/package/js-emass
   description: This is a JavaScript implementation of the original emass algorithm. It is an exact match for the original except it uses updated isotope information in its calculations.
+
+- project: js-unimod
+  title: Unimod
+  url: https://www.npmjs.com/package/js-unimod
+  description: An interface to unimod modifications. Modifications can be retrieved either by name or by ID. The name, id, mass (monoisotopic and average), and composition are returned.
