@@ -43,3 +43,13 @@
   title: Unimod
   url: https://www.npmjs.com/package/js-unimod
   description: An interface to unimod modifications. Modifications can be retrieved either by name or by ID. The name, id, mass (monoisotopic and average), and composition are returned.
+
+- project: peptide-modifier
+  title: Peptide Modifier
+  url: https://www.npmjs.com/package/peptide-modifier
+  description: This module returns all the possible combinations of modifications for a given peptide sequence given a list of modifications and the maximum number of allowed variable modifications.
+
+- project: fasta-js
+  title: FASTA parser
+  url: https://www.npmjs.com/package/fasta-js
+  description: A simple yet flexible FASTA parser. All types of sequences are supported as well as configurable definition lines.
