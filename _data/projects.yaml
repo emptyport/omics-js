@@ -53,3 +53,18 @@
   title: FASTA parser
   url: https://www.npmjs.com/package/fasta-js
   description: A simple yet flexible FASTA parser. All types of sequences are supported as well as configurable definition lines.
+
+- project: js-mgf
+  title: MGF parser
+  url: https://www.npmjs.com/package/js-mgf
+  description: A simple mgf file parser
+
+- project: pViz.js
+  title: pViz.js
+  url: http://research-pub.gene.com/pviz/examples/
+  description: A dynamic JavaScript & SVG library for visualization of protein sequence features. Given a sequence and a list of positioned features, it displays the sequence and aligns the features to the sequence. Features are layed out to not overlap each other, allowing zooming, interaction and customization.
+
+- project: feature-viewer
+  title: neXtProt feature viewer
+  url: https://github.com/calipho-sib/feature-viewer
+  description: The feature viewer is a super easy javascript library to use in order to draw the different features covering a sequence for a better visualization.
