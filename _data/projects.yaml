@@ -1,9 +1,4 @@
 ---
-- project: js_mzml
-  title: mzML parser
-  url: https://www.npmjs.com/package/js_mzml
-  description: An mzML file parser. Supports 64-bit and 32-bit encoding as well as zlib compression in the files.
-
 - project: peptide-cutter
   title: Protein digestion in-silico
   url: https://www.npmjs.com/package/peptide-cutter
@@ -68,3 +63,8 @@
   title: neXtProt feature viewer
   url: https://github.com/calipho-sib/feature-viewer
   description: The feature viewer is a super easy javascript library to use in order to draw the different features covering a sequence for a better visualization.
+
+- project: js_mzml
+  title: mzML parser
+  url: https://www.npmjs.com/package/js_mzml
+  description: An mzML file parser. Supports 64-bit and 32-bit encoding as well as zlib compression in the files. It's in need of a serious rewrite, so only use if you really need to parse mzML files with JavaScript and are only interested in the spectral information.
