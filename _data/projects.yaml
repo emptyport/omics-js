@@ -44,6 +44,11 @@
   url: https://www.npmjs.com/package/peptide-modifier
   description: This module returns all the possible combinations of modifications for a given peptide sequence given a list of modifications and the maximum number of allowed variable modifications.
 
+- project: peptide-fragmenter
+  title: Peptide Fragmenter
+  url: https://www.npmjs.com/package/peptide-fragmenter
+  description: This module performs fragmentation of a peptide sequence. It supports a, b, c, x, y, and z ions as well as specifying the charge state of the fragments. Modifications are also supported.
+
 - project: fasta-js
   title: FASTA parser
   url: https://www.npmjs.com/package/fasta-js

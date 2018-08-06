@@ -31,7 +31,8 @@
 				Welcome to omics.js! Our purpose is to make it easy to find high quality, documented JavaScript libraries that are useful to the omics (proteomics, lipidomics, metabolomics, genomics, etc.). If there is a library that we missed, or you have a recommendation for a library that should exist, let us know on the Contribute page!
 			</p>
 		</div>
-		<div class="card-container">
+		<input type="text" id="filterInput" onkeyup="filterProjects()" placeholder="Filter list...">
+		<div class="card-container" id="card-container">
 		{% for project in site.data.projects %}
 			<div class="card">
 				<div class="card-content">

@@ -69,10 +69,18 @@ a:active {
     text-decoration: none;
   }
 
-  .card-container {
+.card-container {
     padding: 16px;
     margin-top: 24px;
-  }
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 800px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
 
   .intro {
       padding: 16px;
@@ -173,4 +181,9 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+#filterInput {
+    width: 75% !important;
+    margin-left: 12.5% !important;
 }

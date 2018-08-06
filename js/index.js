@@ -22,3 +22,24 @@ function openTab(evt, tabName) {
 function responseReceived() {
   alert("Thank you!");
 }
+
+function filterProjects() {
+  let input = document.getElementById('filterInput');
+  let filter = input.value.toUpperCase();
+  let cardContainer = document.getElementById('card-container');
+  let cards = cardContainer.getElementsByClassName('card');
+  
+  for (i = 0; i < cards.length; i++) {
+    let card = cards[i].getElementsByClassName('card-content')[0];
+    let title = card.getElementsByClassName('card-title')[0];
+    let subtitle = card.getElementsByClassName('card-subtitle')[0];
+    let description = card.getElementsByClassName('card-description')[0];
+
+    if(title.innerHTML.toUpperCase().indexOf(filter) > -1 || subtitle.innerHTML.toUpperCase().indexOf(filter) > -1 || description.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      cards[i].style.display = "";
+    }
+    else {
+      cards[i].style.display = "none";
+    }
+  }
+}
